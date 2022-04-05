@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<title></title>
+</head>
+<body>
+	<div class="col-8 question1 mx-auto">
+		<h3 class="col-8">Кто был мером Ля Манифик?</h3>
+		<img src="backround.png">
+		<div class="col-3">
+			<div class=" gena">Генадий</div>
+			<div class="argusha">Август</div>
+			<div class="che">Товарищ Че</div>
+		</div>
+	</div>
+	<div class="col-8 question2 mx-auto">
+		<h3 class="col-8">Чья база находилась в Реверане из-за которой случилась Битва За Реверан?</h3>
+		<img src="ReveranBitva.png">
+		<div class="col-3">
+			<div class="chebocksar">Мятежников</div>
+			<div class="ancap">Анкаповцов</div>
+			<div class="qwerty">Ничья, Реверан был взорван в входе тестирования оружия</div>
+		</div>
+	</div>
+	<div class="col-8 question3 mx-auto">
+		<h3 class="col-8">Кто был главным поставщиком морского про всего СП 4?</h3>
+		<img src="gupe.png">
+		<div class="col-3">
+			<div class="organcap">Организация Анкап</div>
+			<div class="gupe">Гупи</div>
+			<div class="kto">Липкий</div>
+		</div>
+	</div>
+
+<script type="text/javascript">
+	document.querySelector(".gena").onclick = function (){
+		alert("Не правильно!")
+	}
+	document.querySelector(".argusha").onclick = function (){
+		alert("Правильно!")
+		document.querySelector(".question1").style.display = "none"
+	}
+	document.querySelector(".che").onclick = function (){
+		alert("Правильно! (Нет, вы ошиблись :(")
+	}
+555555555555555555555555555555555555555555555555555555555555555
+	document.querySelector(".ancap").onclick = function (){
+		alert("Вариант правдоподобен, но это не так")
+	}
+	document.querySelector(".chebocksar").onclick = function (){
+		alert("Правильно!")
+		document.querySelector(".question2").style.display = "none"
+	}
+	document.querySelector(".qwerty").onclick = function (){
+		alert("Правило ''Самый длинный ответ'' тут не работает")
+	}
+555555555555555555555555555555555555555555555555555555555555555
+	document.querySelector(".organcap").onclick = function (){
+		alert("no")
+	}
+	document.querySelector(".gupe").onclick = function (){
+		alert("Правильно")
+		document.querySelector(".question3").style.display = "none"
+	}
+	document.querySelector(".kto").onclick = function (){
+		alert("Кто это? Я не знаю...")
+	}
+
+</script>
+</body>
+</html>
